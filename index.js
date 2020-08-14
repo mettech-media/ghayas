@@ -97,3 +97,39 @@ $(document).ready(function () {
        }
      );
    });
+$(window).scroll(function() {
+             var scroll = $(window).scrollTop();
+             if (scroll > 100) {
+               $(".our").addClass("rev-block");
+             }
+             else{
+                $(".our").removeClass("rev-block");
+             }
+           })
+$(window).scroll(function() {
+             var scroll = $(window).scrollTop();
+             if (scroll > 180) {
+               $(".ourservices").addClass("rev-block");
+             }
+             else{
+                $(".ourservices").removeClass("rev-block");
+             }
+           })
+$(window).scroll(function() {
+             var scroll = $(window).scrollTop();
+             if (scroll > 70) {
+               $(".aboutus").addClass("rev-block");
+             }
+             else{
+                $(".aboutus").removeClass("rev-block");
+             }
+           })
+$(window).scroll(function() {
+             var scroll = $(window).scrollTop();
+             if (scroll > 240) {
+               $(".ourteam").addClass("rev-block");
+             }
+             else{
+                $(".ourteam").removeClass("rev-block");
+             }
+           })
