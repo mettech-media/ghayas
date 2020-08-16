@@ -99,37 +99,39 @@ $(document).ready(function () {
    });
 $(window).scroll(function() {
              var scroll = $(window).scrollTop();
-             if (scroll > 100) {
+             if (scroll > -1950) {
                $(".our").addClass("rev-block");
              }
              else{
                 $(".our").removeClass("rev-block");
              }
            })
+
+
 $(window).scroll(function() {
              var scroll = $(window).scrollTop();
-             if (scroll > 180) {
-               $(".ourservices").addClass("rev-block");
+             if (scroll > 900) {
+               $(".clientele").addClass("rev-block");
              }
              else{
-                $(".ourservices").removeClass("rev-block");
+                $(".clientele").removeClass("rev-block");
              }
-           })
-$(window).scroll(function() {
+           
+           $(window).scroll(function() {
              var scroll = $(window).scrollTop();
-             if (scroll > 70) {
-               $(".aboutus").addClass("rev-block");
+             if (scroll > 900) {
+               $(".services").addClass("rev-block");
              }
              else{
-                $(".aboutus").removeClass("rev-block");
+                $(".services").removeClass("rev-block");
              }
-           })
-$(window).scroll(function() {
+              $(window).scroll(function() {
              var scroll = $(window).scrollTop();
-             if (scroll > 240) {
-               $(".ourteam").addClass("rev-block");
+             if (scroll > 900) {
+               $(".team").addClass("rev-block");
              }
              else{
-                $(".ourteam").removeClass("rev-block");
+                $(".team").removeClass("rev-block");
              }
-           })
+           
+           

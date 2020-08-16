@@ -1,3 +1,5 @@
+
+
 /* FONTS */
 
 
@@ -70,55 +72,6 @@ body {
 .banner:nth-of-type(3) {
   background-image: url("banner/9.png");
 	background-size: cover;
-}
-    /*block reveal about us*/
-.rev-block {
-  position: relative;
-}
-
-.rev-block h1 {
-  opacity: 0;
-  animation: appear-text 0.0001s linear forwards;
-  animation-delay: 1.4s;
-}
-
-.rev-block :after {
-  content: '';
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  background: #ffff00;
-  animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-  animation-delay: 1s;
-}
-
-@keyframes rev-block {
-  0% {
-    left: 0;
-    width: 0%;
-  }
-
-  50% {
-    left: 0;
-    width: 100%;
-  }
-
-  100% {
-    left: 100%;
-    width: 0%;
-  }
-}
-
-@keyframes appear-text {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
    /* typeWriter effect */
 .mettech{
@@ -411,46 +364,28 @@ transition: 0.8s;
   color: white;
 }
 .navigation ul li:nth-child(6n+1) a:before{
-  background: url(menu/this.jpg);
-  background-repeat: no-repeat;
-background-position-y: 487px;
-background-position-x: 117px;
-background-size: 88%;
+  background: rgb(16,178,178);
+  background: radial-gradient(circle, rgba(16,178,178,1) 0%, rgba(0,0,0,1) 80%);
 }
 .navigation ul li:nth-child(6n+2) a:before{
-  background: url(menu/this.jpg);
-  background-repeat: no-repeat;
-background-position-y: 487px;
-background-position-x: 117px;
-background-size: 88%;
+  background: rgb(16,178,178);
+  background: radial-gradient(circle, rgba(16,178,178,1) 0%, rgba(0,0,0,1) 80%);
 }
 .navigation ul li:nth-child(6n+3) a:before{
-  background: url(menu/this.jpg);
-  background-repeat: no-repeat;
-background-position-y: 487px;
-background-position-x: 117px;
-background-size: 88%;
+  background: rgb(16,178,178);
+  background: radial-gradient(circle, rgba(16,178,178,1) 0%, rgba(0,0,0,1) 80%);
 }
 .navigation ul li:nth-child(6n+4) a:before{
-  background:url(menu/this.jpg);
-  background-repeat: no-repeat;
-background-position-y: 487px;
-background-position-x: 117px;
-background-size: 88%;
+  background: rgb(16,178,178);
+  background: radial-gradient(circle, rgba(16,178,178,1) 0%, rgba(0,0,0,1) 80%);
 }
 .navigation ul li:nth-child(6n+5) a:before{
-  background:url(menu/this.jpg);
-  background-repeat: no-repeat;
-background-position-y: 487px;
-background-position-x: 117px;
-background-size: 88%;
+  background: rgb(16,178,178);
+  background: radial-gradient(circle, rgba(16,178,178,1) 0%, rgba(0,0,0,1) 80%);
 }
 .navigation ul li:nth-child(6n+6) a:before{
-  background:url(menu/this.jpg);
-  background-repeat: no-repeat;
-background-position-y: 487px;
-background-position-x: 117px;
-background-size: 88%;
+  background: rgb(16,178,178);
+  background: radial-gradient(circle, rgba(16,178,178,1) 0%, rgba(0,0,0,1) 80%);
 }
 
 
@@ -614,11 +549,13 @@ img {
 }
 .team .team-item figcaption:hover .info {
   margin-left: 0;
-}
+}                                                     /*BLOCK REVEALLLLLL/////////////
+
+                                                        */
 .rev-block {
   position: relative;
 }
-.rev-block span {
+.rev-block  {
   opacity: 0;
   animation: appear-text 0.0001s linear forwards;
   animation-delay: 1.4s;
@@ -852,9 +789,7 @@ footer {
 .left{
 	text-align: left;
 }
-                                          /*///////////////////////////////////////
-                                              OUR CLIENTELE
-                                          ////////////////////////////////////////*/
+
 .clientele{
   box-sizing: border-box;
   margin-left: 0;
