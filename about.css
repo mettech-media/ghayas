@@ -1,0 +1,207 @@
+.gradient ul li {
+  display: inline;
+}
+.gradient {
+  text-align: center;
+  padding: 5% 8% 2% 8%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.43771011822697825) 39%, rgba(16, 178, 178, 1) 139%);
+}
+.mob {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  top: 0;
+  z-index: 20;
+  background-color: #f9f9fa;
+  box-shadow: -1px -10px 15px 0px #626262;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: black;
+}
+
+nav.black ul li a {
+  color: #ffff00;
+  transition: 0.3s;
+}
+
+nav.black .logo {
+  color: #5ac8a5;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 1%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #10b2b2;
+  font-size: 2.2rem;
+  font-family: 'Nova Round', cursive;
+  font-weight: 100;
+}
+
+nav ul li:hover a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.7rem;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: black;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+}
+@media only screen and (max-width: 1134px) {
+
+body{
+	background-image: url("back/backs.png");
+	  background-size: contain;
+  cursor: none;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+} 
+
+.mob{
+  display: block;
+}
+nav ul {
+    max-height: 0px;
+    background: black;
+    padding: 0;
+  }
+
+  .showing {
+    max-height: 34em;
+    transition: 0.8s;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 1% 2%;
+  }
+
+  nav ul li a {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+.gradient{
+	font-size: 5rem;
+
+}
+
+h1{
+	color: white;
+	font-family: 'Spectral', serif;
+	padding-left: 27%;
+	font-size: 5rem;
+	padding-top:18%; 
+}
+.cyan {
+	color: #10b2b2;
+	font-family: 'Staatliches', cursive;
+	font-size: 7rem;
+	z-index: 1;
+	width: 300px;
+}
+h2{
+	font-size: 7rem;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  padding-top: 35%;
+  z-index: 1;
+  width: 300px;
+}
+p{
+	color: white;
+	text-align: left;
+	font-size: 5.5rem;
+	width: 50%;
+	padding-left: 35%;
+font-family: 'Staatliches', cursive;
+}
+.homefoot{
+    color: white;
+    font-size: 3rem;
+  }
+  .aboutfoot{
+    color: white;
+     font-size: 3rem;
+  }
+  .teamfoot{
+    color: white;
+  }
+  .clientelefoot{
+    color: white;
+    font-size: 3rem;
+  }
+  .contactfoot{
+    color: white;
+  }
+  .gradient ul li {
+  display: inline;
+}
+.gradient {
+  text-align: center;
+  padding: 5% 8% 2% 8%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.43771011822697825) 39%, rgba(16, 178, 178, 1) 139%);
+  padding: 26% 8% 2% 8%;
+}
+.links{
+	font-size: 3rem;
+	color: white;
+	text-decoration: none;
+}
+.homefoot {
+    color: white;
+    font-size: 4rem;
+    font-family: arial;
+    text-decoration: none;
+   }
+.clientelefoot{
+
+	font-size: 4rem;
+	font-family: arial;
+	text-decoration: none;
+}
+.menu-wrap .menu>div>div>ul>li {
+	font-size: 5.5rem;
+	font-family: 'Monoton', cursive; 
+}
+.fa .fa-instagram{
+	font-size: 3rem;
+}
+}

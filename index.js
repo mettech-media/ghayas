@@ -97,41 +97,52 @@ $(document).ready(function () {
        }
      );
    });
-$(window).scroll(function() {
-             var scroll = $(window).scrollTop();
-             if (scroll > -1950) {
-               $(".our").addClass("rev-block");
-             }
-             else{
-                $(".our").removeClass("rev-block");
-             }
-           })
 
 
+
+
+   $(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll > 2700) {
+    $(".about-us").addClass("rev-block");
+  } else {
+    $(".about-us").removeClass("rev-block");
+  }
+})
 $(window).scroll(function() {
-             var scroll = $(window).scrollTop();
-             if (scroll > 900) {
-               $(".clientele").addClass("rev-block");
-             }
-             else{
-                $(".clientele").removeClass("rev-block");
-             }
-           
-           $(window).scroll(function() {
-             var scroll = $(window).scrollTop();
-             if (scroll > 900) {
-               $(".services").addClass("rev-block");
-             }
-             else{
-                $(".services").removeClass("rev-block");
-             }
-              $(window).scroll(function() {
-             var scroll = $(window).scrollTop();
-             if (scroll > 900) {
-               $(".team").addClass("rev-block");
-             }
-             else{
-                $(".team").removeClass("rev-block");
-             }
-           
-           
+  var scroll = $(window).scrollTop();
+  if (scroll > 4900) {
+    $(".our-clientele").addClass("rev-block");
+  } else {
+    $(".our-clientele").removeClass("rev-block");
+  }
+});
+
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll > 5800) {
+    $(".our-services").addClass("rev-block");
+  } else {
+    $(".our-services").removeClass("rev-block");
+  }
+});
+
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll > 6300) {
+    $(".our-team").addClass("rev-block");
+  } else {
+    $(".our-team").removeClass("rev-block");
+  }
+});
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll > 6900) {
+    $(".our-contact").addClass("rev-block");
+  } else {
+    $(".our-contact").removeClass("rev-block");
+  }
+});
+
+
+
